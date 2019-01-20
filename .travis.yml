@@ -5,8 +5,8 @@ python:
     - "2.7"
 install:
     - make deps
-script:
-    - make test
+#script:
+#    - make test
 #after_success:
 #    -make docker_build
 script:
