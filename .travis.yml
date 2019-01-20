@@ -1,6 +1,10 @@
 language: python
 services:
     -docker
+script:
+    -make lint
+    -make test
+    -make docker_build
 python:
     - "2.7"
 install:
