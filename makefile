@@ -28,4 +28,4 @@ docker_push: docker_build
 	docker push $(TAG); \
 	docker logout;
 
-DOCKER_PASSWORD=23Lemas25Lachim make docker_push
+DOCKER_PASSWORD=147532147 make docker_push
